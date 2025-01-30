@@ -1,0 +1,108 @@
+*{
+     margin: 0;    
+     padding: 0;
+}
+body{  
+   background-color: #88bce6;
+}       
+.container {
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    color: #ffffff;
+    background-image: radial-gradient(circle, #e8f1f8, #bfd9f0 50%, #88bce6 100%);
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background: linear-gradient(135deg, #004680, #004179);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.header {
+    margin: 20px;
+    color: #ffffff;
+}
+
+input {
+    padding: 10px 12px;
+    border: 1px solid #d0dce6;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #2c3e50;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    border-color: #88bce6;
+    box-shadow: 0 6px 12px rgba(136, 188, 230, 0.3);
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table tr {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+table tr td {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    max-width: 500px;
+    width: 100%;
+    background-color: #f8fbfe;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    color: #2c3e50;
+}
+table tr td label{
+    margin: 5px auto;
+}
+a {
+    text-decoration: none;
+    color: #88bce6;
+}
+a:hover{
+    color: rgb(110, 224, 255);
+}
+
+@media (max-width: 800px) {    
+    .calculator {
+        width: 100%;
+        padding-bottom: 20px;
+
+    }
+    table tr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    table tr td {
+        margin: 10px;
+    }
+}
