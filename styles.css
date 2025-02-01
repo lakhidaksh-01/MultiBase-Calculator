@@ -58,6 +58,7 @@ table {
     height: 100%;
     display: flex;
     justify-content: center;
+    background-color: #012a65;
 }
 
 table tr {
