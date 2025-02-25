@@ -17,5 +17,9 @@ A powerful number base converter built with **HTML, CSS, and JavaScript** that a
 - **CSS** – Styling and responsive design.
 - **JavaScript** – Logic for number system conversion.
 
+## 📷 Screenshot
+
+![Calculator Screenshot](screenshot.png)  
+
 ## Contact
 For any queries or suggestions, feel free to contact me via [dakshlakhi01@gmail.com](mailto:dakshlakhi01@gmail.com).
